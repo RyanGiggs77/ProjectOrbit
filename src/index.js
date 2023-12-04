@@ -8,9 +8,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/ProjectOrbit" element={<Layout />}>
+        <Route path="/techapp" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/ProjectOrbit/deteksi" element={<Camera />} />
+          <Route path="/techapp/deteksi" element={<Camera />} />
         </Route>
       </Routes>
     </BrowserRouter>
