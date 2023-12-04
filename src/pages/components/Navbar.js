@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
     <>
     <header className="Navbar">
-        <p>Deteksi Tutup Botol</p>
+        <p>TechCap</p>
         <nav>
             <ul>
             <li>

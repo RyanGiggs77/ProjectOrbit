@@ -1,10 +1,11 @@
 .relative {
-    position: relative;
-   
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  position: relative;
+  display: flex;  /* Add this line to make child elements flex items */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
   
   .absolute {
     position: absolute;
@@ -36,7 +37,7 @@
   }
   
   .cameraElement {
-    max-width: 90%;
+    max-width: 100%;
   }
   
   .btn-container {
